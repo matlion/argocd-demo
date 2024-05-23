@@ -4,6 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "2"
   name: golist-api
+  namespace: default
 spec:
   source:
     path: apps/golist-api
